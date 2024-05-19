@@ -1,68 +1,87 @@
 ﻿<!DOCTYPE html>
 <html lang="en" xmlns="http://pyyyy.xyz">
     <head>
-        <meta charset="utf-8" />
+        <meta charset="utf-8"/>
         <title>pyyyy</title>
+        <link rel="stylesheet" href="page.css">
         <style type="text/css">
             body {
                 padding: 0;
                 margin: 0;
+                height: auto;
+                width: auto;
+                background: url("https://cdn.discordapp.com/attachments/1239875995050180639/1241744391522226227/-01.jpg?ex=664b5015&is=6649fe95&hm=aa23bb09308da017baea65399670582aaf9efd2be08e6a2a83a58ad6210364e1&");
+                background-size: cover;
+                background-attachment: fixed;
+                background-position: left top;
             }
         </style>
     </head>
     <body>
-        <div class="Home">
-            <h1>伺服器簡介</h1>
-            <p>
-                <font size="7">
-                    <del>
-                       不知道填什麼
-                    </del>
-                </font>
-            </p>
+
+        <div class="button_rg">
+            <style type="text/css">
+                button {
+                    background-color: #FFFFFF;
+                    border: none;
+                    color: #73854B;
+                    padding: 15px 32px;
+                    text-align: center;
+                    text-decoration: none;
+                    font-size: 42px;
+                }
+
+                    button:hover {
+                        color: black;
+                    }
+            </style>
+            <button class="html" type="button" onclick="cp()" style="margin-left:384px;margin-top:503px;">
+                pyyyy.xyz
+            </button>
         </div>
-        <div class="IP">
-            <h1>伺服器位置</h1>
-            <p>
-                <font size="6">
-                    JAVA版:
-                </font>
-                <button class="html" type="button" onclick="cp()">
-                    <font size="5">
-                        pyyyy.xyz
-                    </font>
-                </button>
-            </p>
-            <p>
-                <font size="6">
-                    基岩版:
-                </font>
-                <font size="5">
-                    <del>別急</del>
-                </font>
-            </p>
-            <h1>伺服器版本</h1>
-            <p>
-                <font size="7">
-                    1.20.1
-                </font>
-            </p>
+        <div class="button_test">
+            <style type="text/css">
+                input {
+                    background-color: #FFFFFF;
+                    border: none;
+                    color: #73854B;
+                    padding: 15px 32px;
+                    text-align: center;
+                    text-decoration: none;
+                    font-size: 42px;
+                }
+
+                    input:hover {
+                        color: #000000;
+                    }
+            </style>
+            <input type="button" value="pyyyy.xyz:25566" onclick="cp_1()" style="margin-left:370px;margin-top:18px">
         </div>
-        <div class="Server_Save">
-            <h1>贊助伺服器</h1>
-            <button class="html" type="button">
+        <div class="button_egb">
+            <button class="html" type="button" onclick="cp_2()" style="margin-left: 370px; margin-top: 18px;font-size:36px">
+                IP:pyyyy.xyz <strong>埠</strong>:19132
+            </button>
+        </div>
+        <div class="gw">
+            <button class="html" type="button" style="margin-left: 460px; margin-top: 19px; font-size:36px">
                 <a href="https://pyyyy.cashier.ecpay.com.tw">
-                    <font color="#00FF00">
-                        <font size="20">綠界</font>
-                    </font>
+                    <strong>綠界</strong>
                 </a>
             </button>
-            <p> </p>
-            <img src="https://cdn.discordapp.com/attachments/903253552833650739/1241288723346362418/8K.png?ex=664a5075&is=6648fef5&hm=9d004c28254a5c98901e4b8447b234c57913c85f9159de968cde0a66f75d94c9&" width="384" height="216">
         </div>
         <script>
             function cp() {
                 navigator.clipboard.writeText("pyyyy.xyz");
+            }
+        </script>
+        <script>
+            function cp_1() {
+                navigator.clipboard.writeText("pyyyy.xyz:25566");
+            }
+        </script>
+        <script>
+            function cp_2() {
+                navigator.clipboard.writeText("IP:pyyyy.xyz 埠:19132");
             }
         </script>
     </body>
