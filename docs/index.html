@@ -28,9 +28,11 @@
                 <font size="6">
                     JAVA版:
                 </font>
-                <font size="5">
-                    pyyyy.xyz
-                </font>
+                <button class="html" type="button" onclick="cp()">
+                    <font size="5">
+                        pyyyy.xyz
+                    </font>
+                </button>
             </p>
             <p>
                 <font size="6">
@@ -52,11 +54,16 @@
             <button class="html" type="button">
                 <a href="https://pyyyy.cashier.ecpay.com.tw">
                     <font color="#00FF00">
-                        <font size="20">綠界</font>>
+                        <font size="20">綠界</font>
                     </font>
                 </a>
             </button>
             <p> </p>
         </div>
+        <script>
+            function cp() {
+                navigator.clipboard.writeText("pyyyy.xyz");
+            }
+        </script>
     </body>
 </html>
