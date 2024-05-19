@@ -4,7 +4,7 @@
 ### JAVA版:
 pyyyy.xyz
 ### 基岩版:
-IP:pyyyy.xyz. 
+IP:pyyyy.xyz   
 埠:19132
 # 贊助伺服器
 [綠界](https://pyyyy.cashier.ecpay.com.tw)
